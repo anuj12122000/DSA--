@@ -3,7 +3,7 @@ const mongoose =require('mongoose');
 
 
 //creating mongo db
-const db_link = 'mongodb+srv://admin:5uelq3UIOZWddrXp@cluster0.yq9gq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const db_link = 'your_DB_LINK';
 
 const connectdatabase =()=>{mongoose.connect(db_link)
     .then(function (db) {
